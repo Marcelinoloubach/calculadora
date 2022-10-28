@@ -1,18 +1,20 @@
-<html>
+<html lang="pt-br">
 
 <head>
+  
+  <meta charset="utf-8">
   <title>Calculadora simples</title>
-
-  <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
     integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
   <style>
+
     #mengo{
-      background-image: url('310486096_648621793495010_5831296502428557708_n.jpg');
+      background-image: url('https://api.lorem.space/image/movie?w=1200&amp;amp;amp;amp;h=840');
     }
+  
     .calculadora {
-      margin-top: 40px;
+      margin-top: 90px;
       border: solid 1px rgb(133, 113, 113);
       padding: 20px;
       background-color: #2E2E2E;
@@ -49,12 +51,12 @@
     }
   </style>
 </head>
-<body style="background: #D9D9D9">
-  <div class="container">
+<body id="mengo">
+  <div  class="container">
     <div class="row">
       <div class="col d-flex justify-content-center">
         <br />
-        <div id="mengo" class="calculadora">
+        <div  class="calculadora">
           <input id="visor" type="text" class="form-control resultado" placeholder="0" disabled="disabled" />
           <div class="row">
             <button onclick="calcular('acao', 'c')" type="button"
